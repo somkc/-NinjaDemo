@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-22T22:39:44 GMT-04:00" name="Suite" finished-at="2023-03-22T22:41:16 GMT-04:00" duration-ms="92156">
+    <groups>
+    </groups>
+    <test started-at="2023-03-22T22:39:44 GMT-04:00" name="Test" finished-at="2023-03-22T22:41:16 GMT-04:00" duration-ms="92156">
+      <class name="com.ninja.testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:39:45 GMT-04:00" name="setup" finished-at="2023-03-22T22:39:58 GMT-04:00" duration-ms="12673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verfiyValidLogin(java.lang.String,java.lang.String)[pri:1, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:39:58 GMT-04:00" name="verfiyValidLogin" data-provider="loginData" finished-at="2023-03-22T22:39:59 GMT-04:00" duration-ms="758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Andrew@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyValidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:39:59 GMT-04:00" name="teardown" finished-at="2023-03-22T22:40:01 GMT-04:00" duration-ms="2359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:01 GMT-04:00" name="setup" finished-at="2023-03-22T22:40:09 GMT-04:00" duration-ms="7578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verfiyValidLogin(java.lang.String,java.lang.String)[pri:1, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:09 GMT-04:00" name="verfiyValidLogin" data-provider="loginData" finished-at="2023-03-22T22:40:09 GMT-04:00" duration-ms="759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Charles@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyValidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:09 GMT-04:00" name="teardown" finished-at="2023-03-22T22:40:11 GMT-04:00" duration-ms="1086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:11 GMT-04:00" name="setup" finished-at="2023-03-22T22:40:16 GMT-04:00" duration-ms="5858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verfiyValidLogin(java.lang.String,java.lang.String)[pri:1, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:16 GMT-04:00" name="verfiyValidLogin" data-provider="loginData" finished-at="2023-03-22T22:40:17 GMT-04:00" duration-ms="585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dave@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyValidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:17 GMT-04:00" name="teardown" finished-at="2023-03-22T22:40:18 GMT-04:00" duration-ms="1247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:18 GMT-04:00" name="setup" finished-at="2023-03-22T22:40:24 GMT-04:00" duration-ms="5825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verfiyValidLogin(java.lang.String,java.lang.String)[pri:1, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:24 GMT-04:00" name="verfiyValidLogin" data-provider="loginData" finished-at="2023-03-22T22:40:25 GMT-04:00" duration-ms="621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Max@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyValidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:25 GMT-04:00" name="teardown" finished-at="2023-03-22T22:40:26 GMT-04:00" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:26 GMT-04:00" name="setup" finished-at="2023-03-22T22:40:32 GMT-04:00" duration-ms="6107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verfiyValidLogin(java.lang.String,java.lang.String)[pri:1, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:32 GMT-04:00" name="verfiyValidLogin" data-provider="loginData" finished-at="2023-03-22T22:40:33 GMT-04:00" duration-ms="580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ray@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyValidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:33 GMT-04:00" name="teardown" finished-at="2023-03-22T22:40:34 GMT-04:00" duration-ms="1154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:34 GMT-04:00" name="setup" finished-at="2023-03-22T22:40:40 GMT-04:00" duration-ms="6353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateWithoutCredentials()[pri:2, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:40 GMT-04:00" name="validateWithoutCredentials" finished-at="2023-03-22T22:40:41 GMT-04:00" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWithoutCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:41 GMT-04:00" name="teardown" finished-at="2023-03-22T22:40:42 GMT-04:00" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:42 GMT-04:00" name="setup" finished-at="2023-03-22T22:40:48 GMT-04:00" duration-ms="6257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:3, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:48 GMT-04:00" name="verifyLoginWithInvalidCredentials" finished-at="2023-03-22T22:40:48 GMT-04:00" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ninja.testcases.LoginTest@498d318c]" started-at="2023-03-22T22:40:48 GMT-04:00" name="teardown" finished-at="2023-03-22T22:40:50 GMT-04:00" duration-ms="1353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ninja.testcases.LoginTest -->
+      <class name="com.ninja.testcases.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.testcases.SearchTest@7b9a4292]" started-at="2023-03-22T22:40:50 GMT-04:00" name="setup" finished-at="2023-03-22T22:40:56 GMT-04:00" duration-ms="6493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithInValidProduct()[pri:0, instance:com.ninja.testcases.SearchTest@7b9a4292]" started-at="2023-03-22T22:40:56 GMT-04:00" name="verifySearchWithInValidProduct" finished-at="2023-03-22T22:40:57 GMT-04:00" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInValidProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ninja.testcases.SearchTest@7b9a4292]" started-at="2023-03-22T22:40:57 GMT-04:00" name="teardown" finished-at="2023-03-22T22:40:58 GMT-04:00" duration-ms="1480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.testcases.SearchTest@7b9a4292]" started-at="2023-03-22T22:40:58 GMT-04:00" name="setup" finished-at="2023-03-22T22:41:05 GMT-04:00" duration-ms="6580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifysearchWithValidProduct()[pri:0, instance:com.ninja.testcases.SearchTest@7b9a4292]" started-at="2023-03-22T22:41:05 GMT-04:00" name="verifysearchWithValidProduct" finished-at="2023-03-22T22:41:05 GMT-04:00" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchWithValidProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ninja.testcases.SearchTest@7b9a4292]" started-at="2023-03-22T22:41:05 GMT-04:00" name="teardown" finished-at="2023-03-22T22:41:07 GMT-04:00" duration-ms="1517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.testcases.SearchTest@7b9a4292]" started-at="2023-03-22T22:41:07 GMT-04:00" name="setup" finished-at="2023-03-22T22:41:15 GMT-04:00" duration-ms="7726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifysearchWithoutAnyProduct()[pri:0, instance:com.ninja.testcases.SearchTest@7b9a4292]" started-at="2023-03-22T22:41:15 GMT-04:00" name="verifysearchWithoutAnyProduct" finished-at="2023-03-22T22:41:15 GMT-04:00" duration-ms="368" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [There is no product that matches the search criter] but found [There is no product that matches the search criteria.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [There is no product that matches the search criter] but found [There is no product that matches the search criteria.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.ninja.testcases.SearchTest.verifysearchWithoutAnyProduct(SearchTest.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchWithoutAnyProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ninja.testcases.SearchTest@7b9a4292]" started-at="2023-03-22T22:41:15 GMT-04:00" name="teardown" finished-at="2023-03-22T22:41:16 GMT-04:00" duration-ms="1154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ninja.testcases.SearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
